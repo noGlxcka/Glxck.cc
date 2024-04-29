@@ -1,11 +1,11 @@
 local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/obeseinsect/roblox/main/Ui%20Libraries/Elerium.lua'))()
 
--- Lock
+-- fucking nigga
 local V3 = Vector3.new
 local V2 = Vector2.new
 local inf = math.huge
 getgenv().Settings = {
-    ["FearLas"] = {
+    ["ProjectBlox"] = {
         ["Enabled"] = false,
         ["DOT"] = true,
         ["AIRSHOT"] = true,
@@ -34,7 +34,7 @@ getgenv().Settings = {
         ["Enabled"] = false,
         ["HoodCustomsBypass"] = false,
      },
-        ["OnHit"] = {
+        ["Hot"] = {
              ["Enabled"] = true,
              ["Hitchams"] = {
                   ["Enabled"] = false,
@@ -42,9 +42,9 @@ getgenv().Settings = {
                   ["Transparency"] = 0,
                   ["Material"] = "ForceField",
              },
-            ["Hitsound"] = {
+            ["sound"] = {
                   ["Enabled"] = false,
-                  ["Sound"] = "hitsounds/sparkle.wav",
+                  ["Sound"] = "niggersound/pornhub.mp3",
                   ["Volume"] = 2,
             },
         }
@@ -263,7 +263,7 @@ function calculateVelocity(initialPos, finalPos, timeInterval)
     end)
  local Tool = Instance.new("Tool")
 Tool.RequiresHandle = false
-Tool.Name = "Lock Tool"
+Tool.Name = "projectblox"
 Tool.Parent = game.Players.LocalPlayer.Backpack
 local player = game.Players.LocalPlayer
 local function connectCharacterAdded()
