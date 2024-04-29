@@ -1118,7 +1118,7 @@ local misc = window:AddTab("Main") -- Name of tab
 misc:Show() -- shows the tab
 
 local switch = misc:AddSwitch("Camlock", function(bool)
-    getgenv().Settings.FearLas.Camera.Enabled = bool
+    getgenv().Settings.ProjectBlox.Camera.Enabled = bool
 end)
 Lenabled:Set(false)
 
@@ -1130,7 +1130,7 @@ end,
 })
 
 local switch = misc:AddSwitch("Auto Prediction", function(bool)
-    getgenv().Settings.FearLas.AdvancedAutoPred = bool
+    getgenv().Settings.ProjectBlox.AdvancedAutoPred = bool
 end)
 thingsetup:Set(false)
 
